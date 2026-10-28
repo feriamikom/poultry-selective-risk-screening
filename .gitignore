@@ -1,0 +1,12 @@
+.venv*/
+__pycache__/
+*.pyc
+data/raw/
+data/synthetic/
+*.keras
+*.tflite
+*.h5
+*.zip
+.env*
+results/*
+!results/colab_dependencies.lock.txt

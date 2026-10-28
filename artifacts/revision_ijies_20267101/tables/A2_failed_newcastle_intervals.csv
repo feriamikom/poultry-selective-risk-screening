@@ -1,0 +1,18 @@
+backbone,seed,format,rule,class,n_cal,errors_cal,point_estimate,ci95_lower,ci95_upper,primary_status,evidence
+mobilenetv2,17,fp32,global,newcastle,84,1,0.0119047619047619,0.000301357058840243,0.0645519684320403,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,17,fp32,proposed,newcastle,84,1,0.0119047619047619,0.000301357058840243,0.0645519684320403,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,17,int8,global,newcastle,84,2,0.0238095238095238,0.00289656297053299,0.0833744665669055,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,43,fp32,global,newcastle,84,1,0.0119047619047619,0.000301357058840243,0.0645519684320403,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,43,int8,global,newcastle,84,1,0.0119047619047619,0.000301357058840243,0.0645519684320403,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,17,fp32,global,newcastle,84,2,0.0238095238095238,0.00289656297053299,0.0833744665669055,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,17,fp32,proposed,newcastle,84,1,0.0119047619047619,0.000301357058840243,0.0645519684320403,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,17,int8,global,newcastle,84,3,0.0357142857142857,0.00742658312255271,0.10084231157418,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,17,int8,proposed,newcastle,84,2,0.0238095238095238,0.00289656297053299,0.0833744665669055,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,29,fp32,global,newcastle,84,3,0.0357142857142857,0.00742658312255271,0.10084231157418,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,29,fp32,proposed,newcastle,84,5,0.0595238095238095,0.019607578232156,0.133465732913967,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,29,int8,global,newcastle,84,2,0.0238095238095238,0.00289656297053299,0.0833744665669055,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,29,int8,proposed,newcastle,84,1,0.0119047619047619,0.000301357058840243,0.0645519684320403,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,43,fp32,global,newcastle,84,1,0.0119047619047619,0.000301357058840243,0.0645519684320403,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,43,fp32,proposed,newcastle,84,1,0.0119047619047619,0.000301357058840243,0.0645519684320403,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,43,int8,global,newcastle,84,3,0.0357142857142857,0.00742658312255271,0.10084231157418,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged
+efficientnetb0,43,int8,proposed,newcastle,84,3,0.0357142857142857,0.00742658312255271,0.10084231157418,UNCERTIFIED_FALLBACK_ALL_DEFER,post-hoc exploratory; primary certificates unchanged

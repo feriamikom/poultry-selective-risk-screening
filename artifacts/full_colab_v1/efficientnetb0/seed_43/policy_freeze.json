@@ -1,0 +1,20 @@
+{
+  "files": {
+    "selection_freeze.json": "d879621220f75fdd0a8c36217f68261d56a0db3fb8f7309950c6e007e1110042",
+    "selected_policies.json": "d10e90c02721443934a473b28e3cb92ca03daeefb5fd4f2c623fd08810a24655",
+    "predictions_fp32_val.npz": "822f4c8bb7e332d286532a02facc130516c1e2cc4db2919f5dfde9ceaa01ca82",
+    "predictions_fp32_calibration.npz": "99942f448d4b4675a598842e819787fe141787224a1b99428fb04a19b3b0facd",
+    "predictions_int8_val.npz": "0d93036ad095d99ff55dc965b2c2f059e56139062c22638e0efbe7787790e40f",
+    "predictions_int8_calibration.npz": "21ae1e61c9d30f0affffe84937f31b4f369d7a595e855c28ff3072e298137fc5",
+    "policies.json": "4b8f1aa4f63573492720e65cbd7921196b696d1670785c1b9365c08a15d28391",
+    "certificates.json": "d52606ee71ddba44cca99afe5b75936aa2eaefa95ae2e65c478cc0f29df66452",
+    "model_fp32.tflite": "2cf98f28bcb926dbf05c1197151092b274394dedd21f4ce94b82223eb78f659f",
+    "export_fp32.json": "58c069568fec57d207aa1ec2cc0f099f9b06a1eab5914d6d2dd0fb87dbb4f312",
+    "model_int8.tflite": "f74d8275a10a13f7e23a1c7f306a3cf5273b52ccdeb46c306fb623aebe939300",
+    "export_int8.json": "af4fcb9d7bafb9b8be25b3ab242472905df4ad117638fc6a59cedcdc0326fe98"
+  },
+  "family_size": 24,
+  "delta": 0.05,
+  "test_used": false,
+  "claim": "conditional on documented statistical assumptions; no clinical validation"
+}

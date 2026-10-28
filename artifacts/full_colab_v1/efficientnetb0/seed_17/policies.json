@@ -1,0 +1,153 @@
+{
+  "fp32": {
+    "maxsoftmax_090": {
+      "kind": "threshold",
+      "thresholds": [
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "margin": 0.0,
+      "temperature": 1.0
+    },
+    "temperature_validation_rule": {
+      "kind": "threshold",
+      "thresholds": [
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "margin": 0.0,
+      "temperature": 1.1791711474592201
+    },
+    "class_conditional_conformal": {
+      "kind": "conformal",
+      "q": [
+        0.1215789491393865,
+        0.06813847163485276,
+        0.12248034629798277,
+        0.3188917968794095
+      ],
+      "temperature": 1.1791711474592201,
+      "guarantee_type": "class-conditional marginal set coverage under exchangeability; not a high-probability conditional-risk certificate"
+    },
+    "global_certified": {
+      "kind": "threshold",
+      "thresholds": [
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "margin": 0.0,
+      "temperature": 1.1791711474592201,
+      "all_defer": true
+    },
+    "proposed_certified": {
+      "kind": "threshold",
+      "thresholds": [
+        0.9190773899648762,
+        0.9759720850951553,
+        0.89127175997489,
+        0.875379794956259
+      ],
+      "margin": 0.0,
+      "temperature": 1.1791711474592201,
+      "all_defer": true
+    },
+    "proposed_uncertified_ablation": {
+      "kind": "threshold",
+      "thresholds": [
+        0.9190773899648762,
+        0.9759720850951553,
+        0.89127175997489,
+        0.875379794956259
+      ],
+      "margin": 0.0,
+      "temperature": 1.1791711474592201
+    }
+  },
+  "int8": {
+    "maxsoftmax_090": {
+      "kind": "threshold",
+      "thresholds": [
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "margin": 0.0,
+      "temperature": 1.0
+    },
+    "temperature_validation_rule": {
+      "kind": "threshold",
+      "thresholds": [
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "margin": 0.0,
+      "temperature": 1.1165268003502207
+    },
+    "class_conditional_conformal": {
+      "kind": "conformal",
+      "q": [
+        0.47703381240934273,
+        0.4659003212121965,
+        0.2097718186674289,
+        0.7502921906482691
+      ],
+      "temperature": 1.1165268003502207,
+      "guarantee_type": "class-conditional marginal set coverage under exchangeability; not a high-probability conditional-risk certificate"
+    },
+    "global_certified": {
+      "kind": "threshold",
+      "thresholds": [
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "margin": 0.0,
+      "temperature": 1.1165268003502207,
+      "all_defer": true
+    },
+    "proposed_certified": {
+      "kind": "threshold",
+      "thresholds": [
+        0.7357147975401379,
+        0.8181998389186118,
+        0.8776581978577508,
+        0.8125925671454336
+      ],
+      "margin": 0.0,
+      "temperature": 1.1165268003502207,
+      "all_defer": true
+    },
+    "proposed_uncertified_ablation": {
+      "kind": "threshold",
+      "thresholds": [
+        0.7357147975401379,
+        0.8181998389186118,
+        0.8776581978577508,
+        0.8125925671454336
+      ],
+      "margin": 0.0,
+      "temperature": 1.1165268003502207
+    },
+    "fp32_rule_transferred_unverified": {
+      "kind": "threshold",
+      "thresholds": [
+        0.9190773899648762,
+        0.9759720850951553,
+        0.89127175997489,
+        0.875379794956259
+      ],
+      "margin": 0.0,
+      "temperature": 1.1791711474592201
+    }
+  }
+}

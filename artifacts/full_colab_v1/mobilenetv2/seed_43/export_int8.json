@@ -1,0 +1,16 @@
+{
+  "sha256": "c6ab64f818e8e8db056f2235a6c5b2821c86421d0de2e6e9d29b8c8ef2ac8a03",
+  "size_bytes": 2714648,
+  "input_dtype": "<class 'numpy.int8'>",
+  "output_dtype": "<class 'numpy.int8'>",
+  "input_quantization": [
+    1.0,
+    -128
+  ],
+  "output_quantization": [
+    0.09794984757900238,
+    -13
+  ],
+  "representative_split": "train",
+  "representative_count": 256
+}

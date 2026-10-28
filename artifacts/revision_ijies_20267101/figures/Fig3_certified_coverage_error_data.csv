@@ -1,0 +1,8 @@
+case_id,code,backbone,seed,format,rule,n_test,accepted,coverage,worst_class_automatic_error,analysis
+1,M17IP,mobilenetv2,17,int8,proposed,1154,834,0.722703639514731,0.0119047619047619,post hoc; primary results unchanged
+2,M29FG,mobilenetv2,29,fp32,global,1154,883,0.765164644714038,0.0357142857142857,post hoc; primary results unchanged
+3,M29FP,mobilenetv2,29,fp32,proposed,1154,821,0.711438474870017,0.0163934426229508,post hoc; primary results unchanged
+4,M29IG,mobilenetv2,29,int8,global,1154,845,0.732235701906413,0.0191256830601093,post hoc; primary results unchanged
+5,M29IP,mobilenetv2,29,int8,proposed,1154,790,0.684575389948007,0.0229226361031519,post hoc; primary results unchanged
+6,M43FP,mobilenetv2,43,fp32,proposed,1154,847,0.733968804159445,0.0140845070422535,post hoc; primary results unchanged
+7,M43IP,mobilenetv2,43,int8,proposed,1154,828,0.717504332755633,0.0119047619047619,post hoc; primary results unchanged

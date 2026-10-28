@@ -1,0 +1,19 @@
+{
+  "backbone": "efficientnetb0",
+  "seed": 43,
+  "format": "int8",
+  "threads": 1,
+  "model_sha256": "f74d8275a10a13f7e23a1c7f306a3cf5273b52ccdeb46c306fb623aebe939300",
+  "n_images": 1154,
+  "warmup_invocations": 50,
+  "passes": 3,
+  "started_utc": "2026-10-27T08:28:34.771031+00:00",
+  "finished_utc": "2026-10-27T08:29:30.973591+00:00",
+  "rss_before_interpreter_kib": 661488,
+  "rss_after_allocate_kib": 676092,
+  "interpreter_rss_increment_kib": 14604,
+  "peak_rss_kib": 683700,
+  "output_identical_fraction": 1.0,
+  "output_max_abs_diff": 0.0,
+  "argmax_agreement": 1.0
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or its artifacts, cite this empirical study. Manuscript under review."
+type: software
+title: "A Comparative Evaluation of Selective FP32 and INT8 Poultry Fecal-Image Classifiers under Classwise Risk Screening"
+authors:
+  - family-names: Sholihah
+    given-names: Nafiatun
+  - family-names: Rahardi
+    given-names: Majid
+  - family-names: Sundari
+  - family-names: Abdulloh
+    given-names: Ferian Fauzi
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/feriamikom/poultry-selective-risk-screening"
+keywords:
+  - selective classification
+  - classwise risk
+  - quantization
+  - poultry fecal images

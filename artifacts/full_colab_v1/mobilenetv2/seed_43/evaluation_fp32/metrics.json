@@ -1,0 +1,413 @@
+{
+  "classification_baseline": {
+    "accuracy": 0.9419410745233969,
+    "macro_f1": 0.9208512016408789,
+    "recall_by_class": [
+      0.9633802816901409,
+      0.9570200573065902,
+      0.9289617486338798,
+      0.8452380952380952
+    ]
+  },
+  "methods": {
+    "maxsoftmax_090": {
+      "n": 1154,
+      "n_accepted": 983,
+      "automatic_coverage": 0.8518197573656846,
+      "selective_error": 0.019328585961342827,
+      "selective_error_ci95": [
+        0.011676190688354307,
+        0.03001999871833841
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 302,
+          "automatic_error": 0.016901408450704224,
+          "automatic_error_ci95": [
+            0.006227135420507897,
+            0.036422496718336916
+          ],
+          "coverage": 0.8507042253521127,
+          "correct_automatic_fraction": 0.8338028169014085,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 322,
+          "automatic_error": 0.008595988538681949,
+          "automatic_error_ci95": [
+            0.0017762197579918313,
+            0.024914307737877162
+          ],
+          "coverage": 0.9226361031518625,
+          "correct_automatic_fraction": 0.9140401146131805,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 307,
+          "automatic_error": 0.01912568306010929,
+          "automatic_error_ci95": [
+            0.007723246614494692,
+            0.03900758155115389
+          ],
+          "coverage": 0.8387978142076503,
+          "correct_automatic_fraction": 0.819672131147541,
+          "false_healthy_fraction": 0.00273224043715847
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 52,
+          "automatic_error": 0.03571428571428571,
+          "automatic_error_ci95": [
+            0.0074265831225527055,
+            0.10084231157418003
+          ],
+          "coverage": 0.6190476190476191,
+          "correct_automatic_fraction": 0.5833333333333334,
+          "false_healthy_fraction": 0.011904761904761904
+        }
+      ]
+    },
+    "temperature_validation_rule": {
+      "n": 1154,
+      "n_accepted": 983,
+      "automatic_coverage": 0.8518197573656846,
+      "selective_error": 0.018311291963377416,
+      "selective_error_ci95": [
+        0.010887629880474557,
+        0.028785826341028407
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 301,
+          "automatic_error": 0.016901408450704224,
+          "automatic_error_ci95": [
+            0.006227135420507897,
+            0.036422496718336916
+          ],
+          "coverage": 0.847887323943662,
+          "correct_automatic_fraction": 0.8309859154929577,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 322,
+          "automatic_error": 0.0057306590257879654,
+          "automatic_error_ci95": [
+            0.0006947644158434602,
+            0.020546736219472745
+          ],
+          "coverage": 0.9226361031518625,
+          "correct_automatic_fraction": 0.9169054441260746,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 308,
+          "automatic_error": 0.01912568306010929,
+          "automatic_error_ci95": [
+            0.007723246614494692,
+            0.03900758155115389
+          ],
+          "coverage": 0.8415300546448088,
+          "correct_automatic_fraction": 0.8224043715846995,
+          "false_healthy_fraction": 0.00273224043715847
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 52,
+          "automatic_error": 0.03571428571428571,
+          "automatic_error_ci95": [
+            0.0074265831225527055,
+            0.10084231157418003
+          ],
+          "coverage": 0.6190476190476191,
+          "correct_automatic_fraction": 0.5833333333333334,
+          "false_healthy_fraction": 0.011904761904761904
+        }
+      ]
+    },
+    "class_conditional_conformal": {
+      "n": 1154,
+      "n_accepted": 1054,
+      "automatic_coverage": 0.9133448873483535,
+      "selective_error": 0.03320683111954459,
+      "selective_error_ci95": [
+        0.023236595362713375,
+        0.045881940030819836
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 329,
+          "automatic_error": 0.02535211267605634,
+          "automatic_error_ci95": [
+            0.011656685702987049,
+            0.047579146703128364
+          ],
+          "coverage": 0.9267605633802817,
+          "correct_automatic_fraction": 0.9014084507042254,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 312,
+          "automatic_error": 0.025787965616045846,
+          "automatic_error_ci95": [
+            0.011858219752367867,
+            0.04838757622498726
+          ],
+          "coverage": 0.8939828080229226,
+          "correct_automatic_fraction": 0.8681948424068768,
+          "false_healthy_fraction": 0.008595988538681949
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 338,
+          "automatic_error": 0.03278688524590164,
+          "automatic_error_ci95": [
+            0.017054001553219074,
+            0.05657129427415149
+          ],
+          "coverage": 0.9234972677595629,
+          "correct_automatic_fraction": 0.8907103825136612,
+          "false_healthy_fraction": 0.01639344262295082
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 75,
+          "automatic_error": 0.05952380952380952,
+          "automatic_error_ci95": [
+            0.01960757823215596,
+            0.13346573291396713
+          ],
+          "coverage": 0.8928571428571429,
+          "correct_automatic_fraction": 0.8333333333333334,
+          "false_healthy_fraction": 0.047619047619047616
+        }
+      ]
+    },
+    "global_certified": {
+      "n": 1154,
+      "n_accepted": 0,
+      "automatic_coverage": 0.0,
+      "selective_error": null,
+      "selective_error_ci95": [
+        null,
+        null
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.010337407627642929
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.010514190545195517
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.010028283657212842
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.04296491962956506
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": 0.0
+        }
+      ]
+    },
+    "proposed_certified": {
+      "n": 1154,
+      "n_accepted": 847,
+      "automatic_coverage": 0.7339688041594454,
+      "selective_error": 0.012987012987012988,
+      "selective_error_ci95": [
+        0.0065004154650912145,
+        0.023118307132836285
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 253,
+          "automatic_error": 0.014084507042253521,
+          "automatic_error_ci95": [
+            0.0045885985484844264,
+            0.032560789352436934
+          ],
+          "coverage": 0.7126760563380282,
+          "correct_automatic_fraction": 0.6985915492957746,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 263,
+          "automatic_error": 0.0057306590257879654,
+          "automatic_error_ci95": [
+            0.0006947644158434602,
+            0.020546736219472745
+          ],
+          "coverage": 0.7535816618911175,
+          "correct_automatic_fraction": 0.7478510028653295,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 283,
+          "automatic_error": 0.00819672131147541,
+          "automatic_error_ci95": [
+            0.0016935613182524412,
+            0.02376621449112416
+          ],
+          "coverage": 0.773224043715847,
+          "correct_automatic_fraction": 0.7650273224043715,
+          "false_healthy_fraction": 0.00273224043715847
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 48,
+          "automatic_error": 0.011904761904761904,
+          "automatic_error_ci95": [
+            0.0003013570588402435,
+            0.06455196843204025
+          ],
+          "coverage": 0.5714285714285714,
+          "correct_automatic_fraction": 0.5595238095238095,
+          "false_healthy_fraction": 0.011904761904761904
+        }
+      ]
+    },
+    "proposed_uncertified_ablation": {
+      "n": 1154,
+      "n_accepted": 847,
+      "automatic_coverage": 0.7339688041594454,
+      "selective_error": 0.012987012987012988,
+      "selective_error_ci95": [
+        0.0065004154650912145,
+        0.023118307132836285
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 253,
+          "automatic_error": 0.014084507042253521,
+          "automatic_error_ci95": [
+            0.0045885985484844264,
+            0.032560789352436934
+          ],
+          "coverage": 0.7126760563380282,
+          "correct_automatic_fraction": 0.6985915492957746,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 263,
+          "automatic_error": 0.0057306590257879654,
+          "automatic_error_ci95": [
+            0.0006947644158434602,
+            0.020546736219472745
+          ],
+          "coverage": 0.7535816618911175,
+          "correct_automatic_fraction": 0.7478510028653295,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 283,
+          "automatic_error": 0.00819672131147541,
+          "automatic_error_ci95": [
+            0.0016935613182524412,
+            0.02376621449112416
+          ],
+          "coverage": 0.773224043715847,
+          "correct_automatic_fraction": 0.7650273224043715,
+          "false_healthy_fraction": 0.00273224043715847
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 48,
+          "automatic_error": 0.011904761904761904,
+          "automatic_error_ci95": [
+            0.0003013570588402435,
+            0.06455196843204025
+          ],
+          "coverage": 0.5714285714285714,
+          "correct_automatic_fraction": 0.5595238095238095,
+          "false_healthy_fraction": 0.011904761904761904
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Deferred images remain in classwise risk denominators.",
+    "Selective error is undefined (null), not zero, if all images are deferred.",
+    "Confidence intervals are descriptive; certification uses separate calibration data."
+  ],
+  "paired_coverage_comparison": {
+    "coverage_difference": 0.7339688041594454,
+    "ci95": [
+      0.708838821490468,
+      0.7590987868284229
+    ],
+    "repetitions": 2000,
+    "unit": "retained image group",
+    "scope": "descriptive paired interval; no farm-level independence established"
+  }
+}

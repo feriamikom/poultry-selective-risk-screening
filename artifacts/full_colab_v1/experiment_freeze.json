@@ -1,0 +1,99 @@
+{
+  "config": {
+    "experiment": "full_colab_v1",
+    "evaluation_role": "research",
+    "data_dir": "data/raw",
+    "output_dir": "/content/drive/MyDrive/Nafi_BIMA_RiskControl/results/full_colab_v1",
+    "classes": [
+      "healthy",
+      "coccidiosis",
+      "salmonella",
+      "newcastle"
+    ],
+    "split_seed": 20260921,
+    "splits": {
+      "train": 0.55,
+      "val": 0.15,
+      "calibration": 0.15,
+      "test": 0.15
+    },
+    "phash_distance": 4,
+    "min_image_side": 32,
+    "backbones": [
+      "mobilenetv2",
+      "efficientnetb0"
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "image_size": 224,
+    "batch_size": 16,
+    "weights": "imagenet",
+    "head_epochs": 12,
+    "finetune_epochs": 25,
+    "unfreeze_last": 40,
+    "learning_rate_head": 0.001,
+    "learning_rate_finetune": 1e-05,
+    "patience": 4,
+    "class_weight": true,
+    "formats": [
+      "fp32",
+      "int8"
+    ],
+    "representative_images": 256,
+    "interpreter_threads": 2,
+    "alpha": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "delta": 0.05,
+    "tuning_safety_fraction": 0.5,
+    "threshold_grid": [
+      0.0,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.85,
+      0.9,
+      0.93,
+      0.95,
+      0.97,
+      0.99,
+      1.01
+    ],
+    "quantile_grid": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      0.7,
+      0.85,
+      0.95,
+      1.0
+    ],
+    "margin_grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "bootstrap_repetitions": 2000
+  },
+  "manifest_sha256": "712a8f8782e77ff7d2f77e29d826fa0bd3187fccff7ecb973f3cf6d0450db494",
+  "source_sha256": {
+    "poultryrisk/__init__.py": "c342d46f89c68b6d3ddca6efd0bf4dc59e34eb0dc5602f572caef18e4f2cf207",
+    "poultryrisk/__main__.py": "2aa6fc2e00c0c5e140021a258fd7acb2591f367ce07d6ad53f3a22314a381ed5",
+    "poultryrisk/common.py": "750b0b89ed77b1bb46d05c29d774bf2a3a374ef7bb0dd5e1372cbf5b2de72623",
+    "poultryrisk/data.py": "53e9eb0eeb5e26fc26cbafd5e28d1e4065abe04f6f996750c05791f969c3c2d6",
+    "poultryrisk/evaluate.py": "93e6c2f159967e58a5d6de7a8fd64391f6f8c5d3397a802ab996a74845cf271a",
+    "poultryrisk/models.py": "88eab225b4ec81e6cd86e8a36692685bdeff68c17804f4f5dfd7d756cf6700d4",
+    "poultryrisk/pipeline.py": "1cc5c0495024023a4c6c45f4d894b0ed1209923e0a8b2c5d265a6196753021c3",
+    "poultryrisk/risk.py": "5b039934e835d9979c64aab531bb6b6b00adcb0c89a6d01716d46e165ffc2cb4"
+  },
+  "fingerprint": "dfc42b6013b1da3abd40d203cca83db8008f5ae4c483a870b10c81cfbc272357"
+}

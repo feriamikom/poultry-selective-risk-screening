@@ -1,0 +1,18 @@
+{
+  "Fig1": "Vector redraw of original workflow; original image2 711x1848 at 85 mm is approximately 212 dpi.",
+  "Fig2": "All 24 rules x 4 original CP bounds, unchanged primary accounting.",
+  "Fig3": "All seven primary certified rules; descriptive test error, not new certificates.",
+  "Fig4": "Main illustration fixed to MobileNetV2 seed29 INT8 proposed; six companions and full counts for all seven.",
+  "Fig5": "Newcastle stratum only; analytic probability is not full-policy certification probability.",
+  "Fig6": "MobileNetV2 seed29 FP32 illustration selected post-hoc; full curves all cases in C2 table.",
+  "analysis": "post hoc; primary results unchanged",
+  "canvas_width_mm": 85,
+  "case_code": "M=MobileNetV2; E=EfficientNetB0; seed17/29/43; F=FP32/I=INT8; G=global/P=proposed.",
+  "font_size_pt": 10,
+  "formats": [
+    "PNG",
+    "PDF",
+    "SVG"
+  ],
+  "png_dpi": 600
+}

@@ -1,0 +1,477 @@
+{
+  "classification_baseline": {
+    "accuracy": 0.9185441941074524,
+    "macro_f1": 0.8905383067772505,
+    "recall_by_class": [
+      0.9267605633802817,
+      0.8939828080229226,
+      0.9453551912568307,
+      0.8690476190476191
+    ]
+  },
+  "methods": {
+    "maxsoftmax_090": {
+      "n": 1154,
+      "n_accepted": 885,
+      "automatic_coverage": 0.766897746967071,
+      "selective_error": 0.015819209039548022,
+      "selective_error_ci95": [
+        0.008674792387359234,
+        0.026399627102514988
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 271,
+          "automatic_error": 0.016901408450704224,
+          "automatic_error_ci95": [
+            0.006227135420507897,
+            0.036422496718336916
+          ],
+          "coverage": 0.7633802816901408,
+          "correct_automatic_fraction": 0.7464788732394366,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 267,
+          "automatic_error": 0.017191977077363897,
+          "automatic_error_ci95": [
+            0.006334625762706325,
+            0.037042310801460525
+          ],
+          "coverage": 0.7650429799426934,
+          "correct_automatic_fraction": 0.7478510028653295,
+          "false_healthy_fraction": 0.008595988538681949
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 291,
+          "automatic_error": 0.00273224043715847,
+          "automatic_error_ci95": [
+            6.91719462654859e-05,
+            0.015128334490173548
+          ],
+          "coverage": 0.7950819672131147,
+          "correct_automatic_fraction": 0.7923497267759563,
+          "false_healthy_fraction": 0.00273224043715847
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 56,
+          "automatic_error": 0.011904761904761904,
+          "automatic_error_ci95": [
+            0.0003013570588402435,
+            0.06455196843204025
+          ],
+          "coverage": 0.6666666666666666,
+          "correct_automatic_fraction": 0.6547619047619048,
+          "false_healthy_fraction": 0.011904761904761904
+        }
+      ]
+    },
+    "temperature_validation_rule": {
+      "n": 1154,
+      "n_accepted": 969,
+      "automatic_coverage": 0.8396880415944541,
+      "selective_error": 0.033023735810113516,
+      "selective_error_ci95": [
+        0.022695681525528442,
+        0.046301670573667957
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 298,
+          "automatic_error": 0.02535211267605634,
+          "automatic_error_ci95": [
+            0.011656685702987049,
+            0.047579146703128364
+          ],
+          "coverage": 0.8394366197183099,
+          "correct_automatic_fraction": 0.8140845070422535,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 298,
+          "automatic_error": 0.04871060171919771,
+          "automatic_error_ci95": [
+            0.028628291475379104,
+            0.07684660956348001
+          ],
+          "coverage": 0.8538681948424068,
+          "correct_automatic_fraction": 0.8051575931232091,
+          "false_healthy_fraction": 0.011461318051575931
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 312,
+          "automatic_error": 0.00819672131147541,
+          "automatic_error_ci95": [
+            0.0016935613182524412,
+            0.02376621449112416
+          ],
+          "coverage": 0.8524590163934426,
+          "correct_automatic_fraction": 0.8442622950819673,
+          "false_healthy_fraction": 0.00819672131147541
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 61,
+          "automatic_error": 0.03571428571428571,
+          "automatic_error_ci95": [
+            0.0074265831225527055,
+            0.10084231157418003
+          ],
+          "coverage": 0.7261904761904762,
+          "correct_automatic_fraction": 0.6904761904761905,
+          "false_healthy_fraction": 0.03571428571428571
+        }
+      ]
+    },
+    "class_conditional_conformal": {
+      "n": 1154,
+      "n_accepted": 1083,
+      "automatic_coverage": 0.938474870017331,
+      "selective_error": 0.060941828254847646,
+      "selective_error_ci95": [
+        0.04744235663884041,
+        0.07688368209443228
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 336,
+          "automatic_error": 0.030985915492957747,
+          "automatic_error_ci95": [
+            0.015567516884728908,
+            0.05476504504157455
+          ],
+          "coverage": 0.9464788732394366,
+          "correct_automatic_fraction": 0.9154929577464789,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 337,
+          "automatic_error": 0.09742120343839542,
+          "automatic_error_ci95": [
+            0.0684138767872647,
+            0.13347220445165378
+          ],
+          "coverage": 0.9656160458452722,
+          "correct_automatic_fraction": 0.8681948424068768,
+          "false_healthy_fraction": 0.017191977077363897
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 327,
+          "automatic_error": 0.04371584699453552,
+          "automatic_error_ci95": [
+            0.025190660779321798,
+            0.07002243497686357
+          ],
+          "coverage": 0.8934426229508197,
+          "correct_automatic_fraction": 0.8497267759562842,
+          "false_healthy_fraction": 0.01912568306010929
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 83,
+          "automatic_error": 0.05952380952380952,
+          "automatic_error_ci95": [
+            0.01960757823215596,
+            0.13346573291396713
+          ],
+          "coverage": 0.9880952380952381,
+          "correct_automatic_fraction": 0.9285714285714286,
+          "false_healthy_fraction": 0.05952380952380952
+        }
+      ]
+    },
+    "global_certified": {
+      "n": 1154,
+      "n_accepted": 0,
+      "automatic_coverage": 0.0,
+      "selective_error": null,
+      "selective_error_ci95": [
+        null,
+        null
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.010337407627642929
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.010514190545195517
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.010028283657212842
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.04296491962956506
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": 0.0
+        }
+      ]
+    },
+    "proposed_certified": {
+      "n": 1154,
+      "n_accepted": 0,
+      "automatic_coverage": 0.0,
+      "selective_error": null,
+      "selective_error_ci95": [
+        null,
+        null
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.010337407627642929
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.010514190545195517
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.010028283657212842
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 0,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.04296491962956506
+          ],
+          "coverage": 0.0,
+          "correct_automatic_fraction": 0.0,
+          "false_healthy_fraction": 0.0
+        }
+      ]
+    },
+    "proposed_uncertified_ablation": {
+      "n": 1154,
+      "n_accepted": 976,
+      "automatic_coverage": 0.8457538994800693,
+      "selective_error": 0.031762295081967214,
+      "selective_error_ci95": [
+        0.02168088054910947,
+        0.04478279338478195
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 314,
+          "automatic_error": 0.01971830985915493,
+          "automatic_error_ci95": [
+            0.007963644862334255,
+            0.040203563512823
+          ],
+          "coverage": 0.8845070422535212,
+          "correct_automatic_fraction": 0.8647887323943662,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 300,
+          "automatic_error": 0.045845272206303724,
+          "automatic_error_ci95": [
+            0.026428285130823945,
+            0.07338368252914967
+          ],
+          "coverage": 0.8595988538681948,
+          "correct_automatic_fraction": 0.8137535816618912,
+          "false_healthy_fraction": 0.011461318051575931
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 298,
+          "automatic_error": 0.01366120218579235,
+          "automatic_error_ci95": [
+            0.004450238429064884,
+            0.03159113103001347
+          ],
+          "coverage": 0.8142076502732241,
+          "correct_automatic_fraction": 0.8005464480874317,
+          "false_healthy_fraction": 0.01092896174863388
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 64,
+          "automatic_error": 0.03571428571428571,
+          "automatic_error_ci95": [
+            0.0074265831225527055,
+            0.10084231157418003
+          ],
+          "coverage": 0.7619047619047619,
+          "correct_automatic_fraction": 0.7261904761904762,
+          "false_healthy_fraction": 0.03571428571428571
+        }
+      ]
+    },
+    "fp32_rule_transferred_unverified": {
+      "n": 1154,
+      "n_accepted": 798,
+      "automatic_coverage": 0.6915077989601387,
+      "selective_error": 0.02506265664160401,
+      "selective_error_ci95": [
+        0.015374607153443043,
+        0.03844280610749081
+      ],
+      "classwise": [
+        {
+          "class_id": 0,
+          "n": 355,
+          "n_accepted": 220,
+          "automatic_error": 0.022535211267605635,
+          "automatic_error_ci95": [
+            0.009778149439703529,
+            0.04391886640794123
+          ],
+          "coverage": 0.6197183098591549,
+          "correct_automatic_fraction": 0.5971830985915493,
+          "false_healthy_fraction": null
+        },
+        {
+          "class_id": 1,
+          "n": 349,
+          "n_accepted": 222,
+          "automatic_error": 0.03151862464183381,
+          "automatic_error_ci95": [
+            0.015836914828759756,
+            0.0556947306790084
+          ],
+          "coverage": 0.6361031518624641,
+          "correct_automatic_fraction": 0.6045845272206304,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 2,
+          "n": 366,
+          "n_accepted": 295,
+          "automatic_error": 0.0,
+          "automatic_error_ci95": [
+            0.0,
+            0.010028283657212842
+          ],
+          "coverage": 0.8060109289617486,
+          "correct_automatic_fraction": 0.8060109289617486,
+          "false_healthy_fraction": 0.0
+        },
+        {
+          "class_id": 3,
+          "n": 84,
+          "n_accepted": 61,
+          "automatic_error": 0.011904761904761904,
+          "automatic_error_ci95": [
+            0.0003013570588402435,
+            0.06455196843204025
+          ],
+          "coverage": 0.7261904761904762,
+          "correct_automatic_fraction": 0.7142857142857143,
+          "false_healthy_fraction": 0.011904761904761904
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Deferred images remain in classwise risk denominators.",
+    "Selective error is undefined (null), not zero, if all images are deferred.",
+    "Confidence intervals are descriptive; certification uses separate calibration data."
+  ],
+  "paired_coverage_comparison": {
+    "coverage_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "repetitions": 2000,
+    "unit": "retained image group",
+    "scope": "descriptive paired interval; no farm-level independence established"
+  }
+}

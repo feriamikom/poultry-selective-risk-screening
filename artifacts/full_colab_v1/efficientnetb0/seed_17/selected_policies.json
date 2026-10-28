@@ -1,0 +1,52 @@
+{
+  "fp32": {
+    "temperature": 1.1791711474592201,
+    "global": {
+      "kind": "threshold",
+      "thresholds": [
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "margin": 0.0,
+      "temperature": 1.1791711474592201
+    },
+    "proposed": {
+      "kind": "threshold",
+      "thresholds": [
+        0.9190773899648762,
+        0.9759720850951553,
+        0.89127175997489,
+        0.875379794956259
+      ],
+      "margin": 0.0,
+      "temperature": 1.1791711474592201
+    }
+  },
+  "int8": {
+    "temperature": 1.1165268003502207,
+    "global": {
+      "kind": "threshold",
+      "thresholds": [
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "margin": 0.0,
+      "temperature": 1.1165268003502207
+    },
+    "proposed": {
+      "kind": "threshold",
+      "thresholds": [
+        0.7357147975401379,
+        0.8181998389186118,
+        0.8776581978577508,
+        0.8125925671454336
+      ],
+      "margin": 0.0,
+      "temperature": 1.1165268003502207
+    }
+  }
+}

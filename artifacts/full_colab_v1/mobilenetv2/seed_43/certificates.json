@@ -1,0 +1,276 @@
+{
+  "fp32": {
+    "global": {
+      "status": "UNCERTIFIED_FALLBACK_ALL_DEFER",
+      "selected_policy": {
+        "kind": "threshold",
+        "thresholds": [
+          0.85,
+          0.85,
+          0.85,
+          0.85
+        ],
+        "margin": 0.0,
+        "temperature": 1.1983251218892643
+      },
+      "deployed_policy": {
+        "kind": "threshold",
+        "thresholds": [
+          0.85,
+          0.85,
+          0.85,
+          0.85
+        ],
+        "margin": 0.0,
+        "temperature": 1.1983251218892643,
+        "all_defer": true
+      },
+      "class_bounds": [
+        {
+          "class": "healthy",
+          "n": 355,
+          "errors": 5,
+          "upper_bound": 0.04804319891375923,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "coccidiosis",
+          "n": 349,
+          "errors": 2,
+          "upper_bound": 0.033904323174515846,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "salmonella",
+          "n": 366,
+          "errors": 1,
+          "upper_bound": 0.026865904049913708,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "newcastle",
+          "n": 84,
+          "errors": 1,
+          "upper_bound": 0.11238392492651786,
+          "alpha": 0.1,
+          "passes": false,
+          "minimum_n_if_zero_errors": 72
+        }
+      ],
+      "delta_per_test": 0.0005208333333333333,
+      "family_size": 24,
+      "risk_definition": "P(automatic incorrect prediction | true class)",
+      "assumption": "iid within true class; fixed policies selected without calibration labels; no arbitrary-shift guarantee"
+    },
+    "proposed": {
+      "status": "CERTIFIED",
+      "selected_policy": {
+        "kind": "threshold",
+        "thresholds": [
+          0.9476475966989453,
+          0.9954010346001699,
+          0.9260860716635899,
+          0.8754222078644823
+        ],
+        "margin": 0.0,
+        "temperature": 1.1983251218892643
+      },
+      "deployed_policy": {
+        "kind": "threshold",
+        "thresholds": [
+          0.9476475966989453,
+          0.9954010346001699,
+          0.9260860716635899,
+          0.8754222078644823
+        ],
+        "margin": 0.0,
+        "temperature": 1.1983251218892643
+      },
+      "class_bounds": [
+        {
+          "class": "healthy",
+          "n": 355,
+          "errors": 2,
+          "upper_bound": 0.03333934992120283,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "coccidiosis",
+          "n": 349,
+          "errors": 2,
+          "upper_bound": 0.033904323174515846,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "salmonella",
+          "n": 366,
+          "errors": 0,
+          "upper_bound": 0.020444084584117336,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "newcastle",
+          "n": 84,
+          "errors": 0,
+          "upper_bound": 0.08606969019850516,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        }
+      ],
+      "delta_per_test": 0.0005208333333333333,
+      "family_size": 24,
+      "risk_definition": "P(automatic incorrect prediction | true class)",
+      "assumption": "iid within true class; fixed policies selected without calibration labels; no arbitrary-shift guarantee"
+    }
+  },
+  "int8": {
+    "global": {
+      "status": "UNCERTIFIED_FALLBACK_ALL_DEFER",
+      "selected_policy": {
+        "kind": "threshold",
+        "thresholds": [
+          0.85,
+          0.85,
+          0.85,
+          0.85
+        ],
+        "margin": 0.0,
+        "temperature": 1.3078458221253866
+      },
+      "deployed_policy": {
+        "kind": "threshold",
+        "thresholds": [
+          0.85,
+          0.85,
+          0.85,
+          0.85
+        ],
+        "margin": 0.0,
+        "temperature": 1.3078458221253866,
+        "all_defer": true
+      },
+      "class_bounds": [
+        {
+          "class": "healthy",
+          "n": 355,
+          "errors": 7,
+          "upper_bound": 0.056909822435117205,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "coccidiosis",
+          "n": 349,
+          "errors": 2,
+          "upper_bound": 0.033904323174515846,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "salmonella",
+          "n": 366,
+          "errors": 0,
+          "upper_bound": 0.020444084584117336,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "newcastle",
+          "n": 84,
+          "errors": 1,
+          "upper_bound": 0.11238392492651786,
+          "alpha": 0.1,
+          "passes": false,
+          "minimum_n_if_zero_errors": 72
+        }
+      ],
+      "delta_per_test": 0.0005208333333333333,
+      "family_size": 24,
+      "risk_definition": "P(automatic incorrect prediction | true class)",
+      "assumption": "iid within true class; fixed policies selected without calibration labels; no arbitrary-shift guarantee"
+    },
+    "proposed": {
+      "status": "CERTIFIED",
+      "selected_policy": {
+        "kind": "threshold",
+        "thresholds": [
+          0.9105515881830754,
+          0.9901811016909262,
+          0.9443233856064654,
+          0.8614555004218621
+        ],
+        "margin": 0.0,
+        "temperature": 1.3078458221253866
+      },
+      "deployed_policy": {
+        "kind": "threshold",
+        "thresholds": [
+          0.9105515881830754,
+          0.9901811016909262,
+          0.9443233856064654,
+          0.8614555004218621
+        ],
+        "margin": 0.0,
+        "temperature": 1.3078458221253866
+      },
+      "class_bounds": [
+        {
+          "class": "healthy",
+          "n": 355,
+          "errors": 1,
+          "upper_bound": 0.027687902533235685,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "coccidiosis",
+          "n": 349,
+          "errors": 2,
+          "upper_bound": 0.033904323174515846,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "salmonella",
+          "n": 366,
+          "errors": 0,
+          "upper_bound": 0.020444084584117336,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        },
+        {
+          "class": "newcastle",
+          "n": 84,
+          "errors": 0,
+          "upper_bound": 0.08606969019850516,
+          "alpha": 0.1,
+          "passes": true,
+          "minimum_n_if_zero_errors": 72
+        }
+      ],
+      "delta_per_test": 0.0005208333333333333,
+      "family_size": 24,
+      "risk_definition": "P(automatic incorrect prediction | true class)",
+      "assumption": "iid within true class; fixed policies selected without calibration labels; no arbitrary-shift guarantee"
+    }
+  }
+}

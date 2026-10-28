@@ -1,0 +1,58 @@
+[
+  {
+    "label": "healthy",
+    "alpha": 0.05,
+    "calibration_n": 355,
+    "minimum_if_zero_errors": 148,
+    "can_certify_with_zero_errors": true
+  },
+  {
+    "label": "healthy",
+    "alpha": 0.1,
+    "calibration_n": 355,
+    "minimum_if_zero_errors": 72,
+    "can_certify_with_zero_errors": true
+  },
+  {
+    "label": "coccidiosis",
+    "alpha": 0.05,
+    "calibration_n": 349,
+    "minimum_if_zero_errors": 148,
+    "can_certify_with_zero_errors": true
+  },
+  {
+    "label": "coccidiosis",
+    "alpha": 0.1,
+    "calibration_n": 349,
+    "minimum_if_zero_errors": 72,
+    "can_certify_with_zero_errors": true
+  },
+  {
+    "label": "salmonella",
+    "alpha": 0.05,
+    "calibration_n": 366,
+    "minimum_if_zero_errors": 148,
+    "can_certify_with_zero_errors": true
+  },
+  {
+    "label": "salmonella",
+    "alpha": 0.1,
+    "calibration_n": 366,
+    "minimum_if_zero_errors": 72,
+    "can_certify_with_zero_errors": true
+  },
+  {
+    "label": "newcastle",
+    "alpha": 0.05,
+    "calibration_n": 84,
+    "minimum_if_zero_errors": 148,
+    "can_certify_with_zero_errors": false
+  },
+  {
+    "label": "newcastle",
+    "alpha": 0.1,
+    "calibration_n": 84,
+    "minimum_if_zero_errors": 72,
+    "can_certify_with_zero_errors": true
+  }
+]

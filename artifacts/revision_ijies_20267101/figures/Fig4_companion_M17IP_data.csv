@@ -1,0 +1,5 @@
+class,backbone,seed,format,rule,n_cal,errors_cal,upper_bound,passes,status,n_test,accepted_test,errors_test,coverage_test,automatic_error_test,selective_error_test,evidence,correct_automatic,deferred
+healthy,mobilenetv2,17,int8,proposed,355,1,0.0276879025332357,True,CERTIFIED,355,249,4,0.701408450704225,0.0112676056338028,0.0160642570281124,post-hoc exploratory; primary certificates unchanged,245,106
+coccidiosis,mobilenetv2,17,int8,proposed,349,3,0.0391644150068639,True,CERTIFIED,349,271,1,0.776504297994269,0.0028653295128939,0.003690036900369,post-hoc exploratory; primary certificates unchanged,270,78
+salmonella,mobilenetv2,17,int8,proposed,366,0,0.0204440845841173,True,CERTIFIED,366,265,3,0.724043715846995,0.0081967213114754,0.0113207547169811,post-hoc exploratory; primary certificates unchanged,262,101
+newcastle,mobilenetv2,17,int8,proposed,84,0,0.0860696901985052,True,CERTIFIED,84,49,1,0.583333333333333,0.0119047619047619,0.0204081632653061,post-hoc exploratory; primary certificates unchanged,48,35

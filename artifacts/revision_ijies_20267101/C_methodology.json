@@ -1,0 +1,21 @@
+{
+  "AURC": "discrete mean of rankwise risks 1..N, exact random tie expectation; discrete oracle subtraction",
+  "CP_class_delta": "procedure_delta/4 for simultaneous four-class bounds",
+  "CP_selection_grid_order": "permissive to strict, first candidate wins equal validation coverage, matching original global search",
+  "CRC": "per-class (n*Rhat+1)/(n+1)<=alpha; max of class thresholds; expected risk only",
+  "CRC_ties": "threshold nextafter(error_score,+infinity) for >= acceptance",
+  "LTT_rule_delta": "procedure_delta with within-rule IUT and fixed-sequence stopping",
+  "ablation_guarantee_warning": "sensitivity variants are separate post-hoc scenarios, no joint new confirmatory family",
+  "ablation_search_budget": "primary vs 21 quantiles and 13 margins 0..0.3 step 0.025",
+  "analysis": "POST_HOC_EXPLORATORY; primary 7/24 unchanged",
+  "doctor": "negative D_alpha=-g/(1-g), g=1-sum(p^2); no perturbation",
+  "energy": "T*logsumexp(logits/T), T=1; stored dequantized INT8 logits",
+  "excluded_methods": "SelectiveNet, Deep Gamblers, OSP require retraining or different target/protocol",
+  "exploratory_high_probability_family": 144,
+  "family_definition": "12 model/seed/precision cases x 6 scores x (CP pipeline and LTT)",
+  "grid": "50 validation score quantiles including endpoints, deduplicated, strict to permissive",
+  "guarantee_interpretation": "conditional mathematical procedure properties only; family correction cannot make a posthoc design prospective",
+  "primary_result": "7/24 remains unchanged; all new procedures post-hoc",
+  "score_temperature": "only MSP_temperature uses stored validation temperature; other scores raw p/logits",
+  "subsampling": "500 common samples without replacement within each class; fixed primary selected rules"
+}

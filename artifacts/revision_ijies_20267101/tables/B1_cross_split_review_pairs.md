@@ -1,0 +1,16 @@
+# B1_cross_split_review_pairs
+
+post-hoc exploratory; primary certificates unchanged
+
+| left_image_id | left_split | left_class | right_image_id | right_split | right_class | hamming | analysis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 229ed45f1e2853fc5e46b6ad781ed1d2d112d1e8b6da16cc7f1b3dfac9c73585 | train | salmonella | 8d05aa5409cc2f150e7735dbe68d6d755cc400fc165249843e26cdf3a6225e3b | val | healthy | 8 | post-hoc descriptive; retained images, not verified independent birds/flocks |
+| b03c60002a02ed2aaa83d6ae61963354cd2d92cabffe29c704740b9654f7111b | train | healthy | e743b0272a28491df5e20b3b637e2cf289b11e8f8d50231722c21348198f7bfa | val | salmonella | 8 | post-hoc descriptive; retained images, not verified independent birds/flocks |
+| d730dd5c068d89edc8955d23557752c7648aac160b9e7e58599f64385f10c557 | train | healthy | 781b3f04d18f735222a90fa0c6079df98c746ad52dca787c77e0915e8ffc3b5f | val | healthy | 8 | post-hoc descriptive; retained images, not verified independent birds/flocks |
+| 1c976f9becdf7131eb797b435fc3acb4ba6eb18bb7df84977e60f8cd5a019186 | train | healthy | a3ac5a68501e40578d5ac9eac79c09a294e7f3cf6b9bcaff077a969205e8de61 | calibration | healthy | 8 | post-hoc descriptive; retained images, not verified independent birds/flocks |
+| 7954c655ce36a34ede374fbbe47fa7c6ec479b882cc52967ff02506a4faa2aec | train | healthy | 46733bd600dcefdb5d0cb5d999ad7d0dca0e9ad0360cc1c8e734a79c7714bbd8 | calibration | healthy | 8 | post-hoc descriptive; retained images, not verified independent birds/flocks |
+| 32f0f33c6c9c753ca12d2404b34f0ace857c080d1486b8103ae08e4cd6193cc0 | train | healthy | 3f04fa3b74657871f428d418519ebb6b4079e42b8889d9e9cccf8a0dc78c056f | test | healthy | 8 | post-hoc descriptive; retained images, not verified independent birds/flocks |
+| 37b3cdebf4a3bf11e8f543127c48d063e15136304bc3298f85439cae4bdc96df | train | salmonella | e412ad0b19395899ee71c458e0553daf9015a33129775bbd3ea9f5678f6c90f1 | test | healthy | 8 | post-hoc descriptive; retained images, not verified independent birds/flocks |
+| 6900691efcdfa7423848f385c5debeec5a09f49aef4a6e2970f7f01e1372e520 | val | healthy | 068668b20e15512227d47d520ab6cc9de236da9870c99e4f1a2b7358d1598aac | test | healthy | 8 | post-hoc descriptive; retained images, not verified independent birds/flocks |
+| 61353cf98607036045ebfbfd90f7c5120cf050af029b057a03e037c3780be580 | calibration | healthy | 3f04fa3b74657871f428d418519ebb6b4079e42b8889d9e9cccf8a0dc78c056f | test | healthy | 8 | post-hoc descriptive; retained images, not verified independent birds/flocks |
+| 9f40f5d046779350f3970cfd07af4c33ebcf76f62c4b3cadd638d148fb94246d | calibration | healthy | 797d071b7644b462ff97a4fd4bce5c7b957de7b97952e1a26314556cafbbeb82 | test | healthy | 8 | post-hoc descriptive; retained images, not verified independent birds/flocks |

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "predictions_fp32_val.npz": "822f4c8bb7e332d286532a02facc130516c1e2cc4db2919f5dfde9ceaa01ca82",
+    "model_fp32.tflite": "2cf98f28bcb926dbf05c1197151092b274394dedd21f4ce94b82223eb78f659f",
+    "export_fp32.json": "58c069568fec57d207aa1ec2cc0f099f9b06a1eab5914d6d2dd0fb87dbb4f312",
+    "predictions_int8_val.npz": "0d93036ad095d99ff55dc965b2c2f059e56139062c22638e0efbe7787790e40f",
+    "model_int8.tflite": "f74d8275a10a13f7e23a1c7f306a3cf5273b52ccdeb46c306fb623aebe939300",
+    "export_int8.json": "af4fcb9d7bafb9b8be25b3ab242472905df4ad117638fc6a59cedcdc0326fe98",
+    "selected_policies.json": "d10e90c02721443934a473b28e3cb92ca03daeefb5fd4f2c623fd08810a24655"
+  },
+  "created_utc": "2026-09-23T01:51:00.644308+00:00",
+  "calibration_used": false,
+  "test_used": false
+}

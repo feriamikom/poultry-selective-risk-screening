@@ -1,0 +1,25 @@
+accounting,delta_per_bound,n,errors,upper_bound,passes_alpha_010,evidence
+uncorrected,0.05,84,0,0.0350350306049421,True,post-hoc exploratory; primary certificates unchanged
+uncorrected,0.05,84,1,0.0552315216871942,True,post-hoc exploratory; primary certificates unchanged
+uncorrected,0.05,84,2,0.0730562396981011,True,post-hoc exploratory; primary certificates unchanged
+uncorrected,0.05,84,3,0.0897224595832321,True,post-hoc exploratory; primary certificates unchanged
+uncorrected,0.05,84,4,0.105660867879401,False,post-hoc exploratory; primary certificates unchanged
+uncorrected,0.05,84,5,0.121083350812555,False,post-hoc exploratory; primary certificates unchanged
+four_classes,0.0125,84,0,0.0508296424129905,True,post-hoc exploratory; primary certificates unchanged
+four_classes,0.0125,84,1,0.0735753425236854,True,post-hoc exploratory; primary certificates unchanged
+four_classes,0.0125,84,2,0.0932358590614743,True,post-hoc exploratory; primary certificates unchanged
+four_classes,0.0125,84,3,0.111377911125186,False,post-hoc exploratory; primary certificates unchanged
+four_classes,0.0125,84,4,0.128560848976602,False,post-hoc exploratory; primary certificates unchanged
+four_classes,0.0125,84,5,0.145061310489709,False,post-hoc exploratory; primary certificates unchanged
+IUT_24_rules,0.00208333333333333,84,0,0.0708614882697999,True,post-hoc exploratory; primary certificates unchanged
+IUT_24_rules,0.00208333333333333,84,1,0.0958860976428538,True,post-hoc exploratory; primary certificates unchanged
+IUT_24_rules,0.00208333333333333,84,2,0.117215187046224,False,post-hoc exploratory; primary certificates unchanged
+IUT_24_rules,0.00208333333333333,84,3,0.136702433715995,False,post-hoc exploratory; primary certificates unchanged
+IUT_24_rules,0.00208333333333333,84,4,0.155017441644479,False,post-hoc exploratory; primary certificates unchanged
+IUT_24_rules,0.00208333333333333,84,5,0.172494026389682,False,post-hoc exploratory; primary certificates unchanged
+primary_96_bounds,0.000520833333333333,84,0,0.0860696901985052,True,post-hoc exploratory; primary certificates unchanged
+primary_96_bounds,0.000520833333333333,84,1,0.112383924926518,False,post-hoc exploratory; primary certificates unchanged
+primary_96_bounds,0.000520833333333333,84,2,0.134670714096563,False,post-hoc exploratory; primary certificates unchanged
+primary_96_bounds,0.000520833333333333,84,3,0.154931542626886,False,post-hoc exploratory; primary certificates unchanged
+primary_96_bounds,0.000520833333333333,84,4,0.173895828415969,False,post-hoc exploratory; primary certificates unchanged
+primary_96_bounds,0.000520833333333333,84,5,0.191929321596217,False,post-hoc exploratory; primary certificates unchanged

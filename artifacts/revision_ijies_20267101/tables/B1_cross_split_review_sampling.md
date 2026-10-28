@@ -1,0 +1,7 @@
+# B1_cross_split_review_sampling
+
+post-hoc exploratory; primary certificates unchanged
+
+| requested_pairs | eligible_unique_pairs | selected_without_replacement | distance_min_inclusive | distance_max_inclusive | sampling_frame | limitation | image_assessment_status | analysis |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 24 | 10 | 10 | 5 | 8 | all retained-image pairs across different frozen splits | fewer than24 eligible pairs; show all available | manual author review required | post-hoc descriptive; retained images, not verified independent birds/flocks |

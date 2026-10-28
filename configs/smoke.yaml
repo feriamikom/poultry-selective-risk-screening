@@ -1,0 +1,71 @@
+experiment: smoke_synthetic
+evaluation_role: synthetic
+data_dir: data/synthetic
+output_dir: results/smoke_synthetic
+classes:
+- healthy
+- coccidiosis
+- salmonella
+- newcastle
+split_seed: 20260921
+splits:
+  train: 0.55
+  val: 0.15
+  calibration: 0.15
+  test: 0.15
+phash_distance: 4
+min_image_side: 32
+backbones:
+- tinycnn
+seeds:
+- 17
+image_size: 64
+batch_size: 8
+weights: null
+head_epochs: 1
+finetune_epochs: 0
+unfreeze_last: 40
+learning_rate_head: 0.001
+learning_rate_finetune: 1.0e-05
+patience: 4
+class_weight: true
+formats:
+- fp32
+- int8
+representative_images: 32
+interpreter_threads: 2
+alpha:
+- 0.1
+- 0.1
+- 0.1
+- 0.1
+delta: 0.05
+tuning_safety_fraction: 0.5
+threshold_grid:
+- 0.0
+- 0.5
+- 0.6
+- 0.7
+- 0.8
+- 0.85
+- 0.9
+- 0.93
+- 0.95
+- 0.97
+- 0.99
+- 1.01
+quantile_grid:
+- 0.0
+- 0.1
+- 0.25
+- 0.5
+- 0.7
+- 0.85
+- 0.95
+- 1.0
+margin_grid:
+- 0.0
+- 0.05
+- 0.1
+- 0.2
+bootstrap_repetitions: 100

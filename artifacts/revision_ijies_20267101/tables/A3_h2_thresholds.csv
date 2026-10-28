@@ -1,0 +1,17 @@
+backbone,seed,format,rule,class,threshold,temperature,margin,primary_status,evidence
+mobilenetv2,29,fp32,global,healthy,0.9,1.13540830921144,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,fp32,global,coccidiosis,0.9,1.13540830921144,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,fp32,global,salmonella,0.9,1.13540830921144,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,fp32,global,newcastle,0.9,1.13540830921144,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,fp32,proposed,healthy,0.947037968864337,1.13540830921144,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,fp32,proposed,coccidiosis,0.985593836301762,1.13540830921144,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,fp32,proposed,salmonella,0.903809313729397,1.13540830921144,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,fp32,proposed,newcastle,0.823443054982633,1.13540830921144,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,int8,global,healthy,0.9,1.21829130328779,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,int8,global,coccidiosis,0.9,1.21829130328779,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,int8,global,salmonella,0.9,1.21829130328779,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,int8,global,newcastle,0.9,1.21829130328779,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,int8,proposed,healthy,0.910554503117065,1.21829130328779,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,int8,proposed,coccidiosis,0.97772552200744,1.21829130328779,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,int8,proposed,salmonella,0.92199916821827,1.21829130328779,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged
+mobilenetv2,29,int8,proposed,newcastle,0.740649887710085,1.21829130328779,0,CERTIFIED,post-hoc exploratory; primary certificates unchanged

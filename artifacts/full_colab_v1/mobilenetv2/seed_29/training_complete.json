@@ -1,0 +1,7 @@
+{
+  "best_validation_macro_f1": 0.9169756278758581,
+  "model_sha256": "880952c5b71086086301c18a6aa86e0469feca24df4bb30e8044d86b27a25769",
+  "seed": 29,
+  "backbone": "mobilenetv2",
+  "tensorflow_version": "2.20.0"
+}

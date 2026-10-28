@@ -1,0 +1,7 @@
+{
+  "median_invoke_ms": 7.136600499961787,
+  "p95_invoke_ms": 17.25162975012608,
+  "warmup_invocations": 10,
+  "threads": 2,
+  "scope": "local host CPU invoke only; excludes loading/preprocessing; not smartphone latency"
+}

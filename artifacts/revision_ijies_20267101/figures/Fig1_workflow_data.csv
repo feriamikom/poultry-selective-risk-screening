@@ -1,0 +1,15 @@
+stage,title,detail,analysis
+1,Audit dataset images,"Hash, pHash and label conflicts
+Deduplicate before splitting",post hoc; primary results unchanged
+2,Freeze one split,"Train / validation / calibration / test
+Shared across seeds and formats",post hoc; primary results unchanged
+3,Train and export,"Train-only weights and INT8 inputs
+MobileNetV2 and EfficientNetB0",post hoc; primary results unchanged
+4,Select on validation,"Temperature and one global +
+one classwise rule per case",post hoc; primary results unchanged
+5,Freeze selected rules,"Verify hashes before
+calibration inference",post hoc; primary results unchanged
+6,Calibrate fixed rules,"24 rules, 96 CP bounds
+Failed rules deploy all-defer",post hoc; primary results unchanged
+7,Evaluate on held-out test,"Primary results from frozen rules
+Additional analyses post hoc",post hoc; primary results unchanged

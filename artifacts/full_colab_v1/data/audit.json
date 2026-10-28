@@ -1,0 +1,37 @@
+{
+  "input_images": 8067,
+  "retained": 7695,
+  "counts": {
+    "coccidiosis": {
+      "calibration": 349,
+      "test": 349,
+      "train": 1280,
+      "val": 349
+    },
+    "healthy": {
+      "calibration": 355,
+      "test": 355,
+      "train": 1301,
+      "val": 355
+    },
+    "newcastle": {
+      "calibration": 84,
+      "test": 84,
+      "train": 308,
+      "val": 84
+    },
+    "salmonella": {
+      "calibration": 366,
+      "test": 366,
+      "train": 1343,
+      "val": 367
+    }
+  },
+  "decisions": {
+    "keep": 7695,
+    "near_duplicate": 334,
+    "label_conflict": 38
+  },
+  "source_status": "filename proxy only; not independently verified clinical provenance",
+  "manifest_sha256": "712a8f8782e77ff7d2f77e29d826fa0bd3187fccff7ecb973f3cf6d0450db494"
+}

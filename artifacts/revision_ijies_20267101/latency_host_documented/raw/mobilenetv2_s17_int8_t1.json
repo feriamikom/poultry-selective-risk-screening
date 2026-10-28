@@ -1,0 +1,19 @@
+{
+  "backbone": "mobilenetv2",
+  "seed": 17,
+  "format": "int8",
+  "threads": 1,
+  "model_sha256": "aa4ecf09b8772427305c5d98ea258e2456e14a84ed6fe00ac9bcb63d62a8644f",
+  "n_images": 1154,
+  "warmup_invocations": 50,
+  "passes": 3,
+  "started_utc": "2026-10-27T08:34:09.606902+00:00",
+  "finished_utc": "2026-10-27T08:34:46.216482+00:00",
+  "rss_before_interpreter_kib": 660772,
+  "rss_after_allocate_kib": 671996,
+  "interpreter_rss_increment_kib": 11224,
+  "peak_rss_kib": 676184,
+  "output_identical_fraction": 1.0,
+  "output_max_abs_diff": 0.0,
+  "argmax_agreement": 1.0
+}

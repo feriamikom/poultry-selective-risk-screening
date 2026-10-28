@@ -1,0 +1,16 @@
+{
+  "sha256": "2cf98f28bcb926dbf05c1197151092b274394dedd21f4ce94b82223eb78f659f",
+  "size_bytes": 16054736,
+  "input_dtype": "<class 'numpy.float32'>",
+  "output_dtype": "<class 'numpy.float32'>",
+  "input_quantization": [
+    0.0,
+    0
+  ],
+  "output_quantization": [
+    0.0,
+    0
+  ],
+  "representative_split": "train",
+  "representative_count": 256
+}

@@ -1,0 +1,2 @@
+input_images,groups,label_conflict_groups,label_conflict_images,ordinary_near_duplicate_images,retained_images,retained_groups,prior_visual_inspection,analysis
+8067,7714,19,38,334,7695,7695,author-reported deterministic sample: 8 conflict and 8 ordinary near-duplicate groups before training,"post-hoc descriptive; retained images, not verified independent birds/flocks"

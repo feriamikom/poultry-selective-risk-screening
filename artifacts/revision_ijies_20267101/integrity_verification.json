@@ -1,0 +1,11 @@
+{
+  "coverage_max": 0.7651646447140381,
+  "coverage_min": 0.6845753899480069,
+  "omitted_models_metadata_verified": [],
+  "primary_certified": 7,
+  "primary_failed": 17,
+  "run_freezes_verified": 12,
+  "scope": "Native model hashes verified only when model files are present; no training or inference.",
+  "source_files_verified": 8,
+  "test_n": 1154
+}

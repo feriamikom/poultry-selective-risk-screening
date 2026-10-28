@@ -1,0 +1,75 @@
+{
+  "scope": "filesystem mtimes from extraction plus original command logs; neither is an external trusted timestamp attestation",
+  "files": {
+    "mobilenetv2/seed_17/selection_freeze.json": "2026-10-27T04:40:25.531725+00:00",
+    "mobilenetv2/seed_17/policy_freeze.json": "2026-10-27T04:40:25.331290+00:00",
+    "mobilenetv2/seed_17/predictions_fp32_calibration.npz": "2026-10-27T04:40:25.539729+00:00",
+    "mobilenetv2/seed_17/predictions_fp32_test.npz": "2026-10-27T04:40:25.562726+00:00",
+    "mobilenetv2/seed_17/predictions_int8_calibration.npz": "2026-10-27T04:40:25.541727+00:00",
+    "mobilenetv2/seed_17/predictions_int8_test.npz": "2026-10-27T04:40:25.534732+00:00",
+    "mobilenetv2/seed_29/selection_freeze.json": "2026-10-27T04:40:25.098314+00:00",
+    "mobilenetv2/seed_29/policy_freeze.json": "2026-10-27T04:40:25.093313+00:00",
+    "mobilenetv2/seed_29/predictions_fp32_calibration.npz": "2026-10-27T04:40:25.263903+00:00",
+    "mobilenetv2/seed_29/predictions_fp32_test.npz": "2026-10-27T04:40:25.266902+00:00",
+    "mobilenetv2/seed_29/predictions_int8_calibration.npz": "2026-10-27T04:40:25.252901+00:00",
+    "mobilenetv2/seed_29/predictions_int8_test.npz": "2026-10-27T04:40:25.252901+00:00",
+    "mobilenetv2/seed_43/selection_freeze.json": "2026-10-27T04:40:25.543730+00:00",
+    "mobilenetv2/seed_43/policy_freeze.json": "2026-10-27T04:40:25.288846+00:00",
+    "mobilenetv2/seed_43/predictions_fp32_calibration.npz": "2026-10-27T04:40:25.441427+00:00",
+    "mobilenetv2/seed_43/predictions_fp32_test.npz": "2026-10-27T04:40:25.431840+00:00",
+    "mobilenetv2/seed_43/predictions_int8_calibration.npz": "2026-10-27T04:40:25.390308+00:00",
+    "mobilenetv2/seed_43/predictions_int8_test.npz": "2026-10-27T04:40:25.328322+00:00",
+    "efficientnetb0/seed_17/selection_freeze.json": "2026-10-27T04:40:25.265903+00:00",
+    "efficientnetb0/seed_17/policy_freeze.json": "2026-10-27T04:40:25.264904+00:00",
+    "efficientnetb0/seed_17/predictions_fp32_calibration.npz": "2026-10-27T04:40:25.324283+00:00",
+    "efficientnetb0/seed_17/predictions_fp32_test.npz": "2026-10-27T04:40:25.287841+00:00",
+    "efficientnetb0/seed_17/predictions_int8_calibration.npz": "2026-10-27T04:40:25.285842+00:00",
+    "efficientnetb0/seed_17/predictions_int8_test.npz": "2026-10-27T04:40:25.289846+00:00",
+    "efficientnetb0/seed_29/selection_freeze.json": "2026-10-27T04:40:25.009573+00:00",
+    "efficientnetb0/seed_29/policy_freeze.json": "2026-10-27T04:40:25.009573+00:00",
+    "efficientnetb0/seed_29/predictions_fp32_calibration.npz": "2026-10-27T04:40:25.028073+00:00",
+    "efficientnetb0/seed_29/predictions_fp32_test.npz": "2026-10-27T04:40:25.005865+00:00",
+    "efficientnetb0/seed_29/predictions_int8_calibration.npz": "2026-10-27T04:40:25.021600+00:00",
+    "efficientnetb0/seed_29/predictions_int8_test.npz": "2026-10-27T04:40:25.015842+00:00",
+    "efficientnetb0/seed_43/selection_freeze.json": "2026-10-27T04:40:25.085316+00:00",
+    "efficientnetb0/seed_43/policy_freeze.json": "2026-10-27T04:40:25.078314+00:00",
+    "efficientnetb0/seed_43/predictions_fp32_calibration.npz": "2026-10-27T04:40:25.089316+00:00",
+    "efficientnetb0/seed_43/predictions_fp32_test.npz": "2026-10-27T04:40:25.077314+00:00",
+    "efficientnetb0/seed_43/predictions_int8_calibration.npz": "2026-10-27T04:40:25.099316+00:00",
+    "efficientnetb0/seed_43/predictions_int8_test.npz": "2026-10-27T04:40:25.087314+00:00"
+  },
+  "stage_execution": {
+    "selection_freeze": {
+      "source_relative_path": "session_20260923T013608010722Z/full_select_policy_resume.json",
+      "source_sha256": "dc4f14067006e17c8797b23dad0b9e160f10ee41db8d8bc616ea0e5a2a6e26e4",
+      "started_utc": "2026-09-23T01:46:35.928182+00:00",
+      "elapsed_seconds": 265.288418826,
+      "exit_code": 0,
+      "finished_utc_derived": "2026-09-23T01:51:01.216601+00:00"
+    },
+    "calibration_predictions": {
+      "source_relative_path": "session_20260923T013608010722Z/full_predict_calibration.json",
+      "source_sha256": "43fbc50e6b489ca7a5cef48f3bfa0e5b140b02945cd161d403ffbcbff38897c9",
+      "started_utc": "2026-09-23T02:00:58.631266+00:00",
+      "elapsed_seconds": 244.84161761199994,
+      "exit_code": 0,
+      "finished_utc_derived": "2026-09-23T02:05:03.472884+00:00"
+    },
+    "policy_freeze": {
+      "source_relative_path": "session_20260923T013608010722Z/full_calibrate.json",
+      "source_sha256": "adb14884f9f296ea10143c613a062d72e8b9ab9cb6a15faf8f502169669435eb",
+      "started_utc": "2026-09-23T02:07:22.767757+00:00",
+      "elapsed_seconds": 4.006098008000208,
+      "exit_code": 0,
+      "finished_utc_derived": "2026-09-23T02:07:26.773855+00:00"
+    },
+    "test_predictions": {
+      "source_relative_path": "session_20260923T013608010722Z/full_evaluate.json",
+      "source_sha256": "7387bb2500fc7316e2878a654363e0aeac8574ebf1d11290ae38762a61c638ee",
+      "started_utc": "2026-09-23T02:08:47.090304+00:00",
+      "elapsed_seconds": 244.341500044,
+      "exit_code": 0,
+      "finished_utc_derived": "2026-09-23T02:12:51.431804+00:00"
+    }
+  }
+}
